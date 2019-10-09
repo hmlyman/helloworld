@@ -1,0 +1,43 @@
+ul#main-nav {
+    background-color: black;
+    text-align: center;
+}
+
+ul#main-nav li {
+    font-size: 20px;
+    font-family: verdana;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    display: inline;
+}
+ul#main-nav li a{
+    padding: 3px 8px;
+}
+
+ul#main-nav li a:hover{
+    color: blue;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: geneva;
+    color: darkslateblue;
+    background-color: lightpink;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: black 1px solid;
+}
+p {
+    font-family: verdana;
+    color: darkviolet;
+    border: black 1px solid;
+    text-align: center;
+}
+img#main-picture {
+    width: 120%
+    height: 120%
+    border: 2px solid black
+    object-position: 10px
+}
