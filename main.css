@@ -52,3 +52,21 @@ p {
 img#main-picture {
     border: 5px solid black;
 }
+
+table{
+    border: darkviolet 5px dotted;
+}
+
+.table-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    border: black 3px solid;
+}
