@@ -1,18 +1,27 @@
+header {
+    background-color: black;
+    position: relative;
+    text-align: center;
+    height: 50px;
+
+  }
 ul#main-nav {
     background-color: black;
     text-align: center;
+    width: 50px;
+    height: 50px;
+    display: inline;
 }
 
 ul#main-nav li {
-    font-size: 20px;
-    font-family: verdana;
-    color: white;
     background-color: black;
     list-style-type: none;
     display: inline;
 }
 ul#main-nav li a{
-    padding: 3px 8px;
+    color: white;
+    padding: 10px 3px;
+    font-size: 25px;
 }
 
 ul#main-nav li a:hover{
@@ -20,24 +29,26 @@ ul#main-nav li a:hover{
 }
 
 h1 {
-    font-size: 40px;
-    font-family: geneva;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
     color: darkslateblue;
     background-color: lightpink;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 15px;
     text-align: center;
     border: black 1px solid;
+}
+
+.text {
+    border: black 3px solid;
 }
 p {
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkviolet;
-    border: black 1px solid;
     text-align: center;
+    text-justify: left;
+    font-size: 25px;
 }
 img#main-picture {
-    width: 120%
-    height: 120%
-    border: 2px solid black
-    object-position: 10px
+    border: 5px solid black;
 }
