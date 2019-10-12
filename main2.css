@@ -1,32 +1,30 @@
 header {
-    background-color: black;
+    background-color: darkgray;
     position: relative;
-    text-align: center;
     height: 50px;
 
   }
 ul#main-nav {
-    background-color: black;
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    display: inline;
+    background-color: darkgray;
+    width:
+    height:
+
 }
 
 ul#main-nav li {
-    background-color: black;
+    background-color: darkgray;
     list-style-type: none;
-    display: inline;
 }
 ul#main-nav li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: black;
     padding: 10px 3px;
     font-size: 25px;
 }
 
 ul#main-nav li a:hover{
-    color: blue;
+    color: white;
+    background-color: gray;
 }
 
 h1 {
@@ -101,13 +99,13 @@ img#old-lady {
     padding: 15px;
 }
 
-ul {
+ul#future-plans {
     border: black 5px solid;
     margin-left: auto;
     margin-right: auto;
 }
 
-ul li{
+ul#future-plans li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
 
