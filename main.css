@@ -19,6 +19,7 @@ ul#main-nav li {
     display: inline;
 }
 ul#main-nav li a{
+    font-family: 'Times New Roman', Times, serif;
     color: white;
     padding: 10px 3px;
     font-size: 25px;
@@ -34,27 +35,47 @@ h1 {
     color: darkslateblue;
     background-color: lightpink;
     padding: 15px;
-    margin: 15px;
     text-align: center;
     border: black 1px solid;
 }
 
+h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslateblue;
+    background-color: lightpink;
+    padding: 15px;
+    text-align: center;
+    border: black 1px solid; 
+}
+
+body{
+    background-image: url("./assets/images/WatercolorBackground.jpg");
+}
+
 .text {
     border: black 3px solid;
+    margin: 10px;
 }
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkviolet;
+    color: black;
     text-align: center;
     text-justify: left;
     font-size: 25px;
 }
 img#main-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 5px solid black;
+    padding: 10px;
 }
 
 table{
-    border: darkviolet 5px dotted;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 5px dotted;
 }
 
 .table-title {
@@ -70,3 +91,47 @@ th {
     font-size: 20px;
     border: black 3px solid;
 }
+
+img#old-lady {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 500px;
+    padding: 15px;
+}
+
+ul {
+    border: black 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+
+footer {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkslateblue;
+    background-color: lightpink;
+    text-align: center;
+    border: black 1px solid;
+}
+
+ol#Favorites-List {
+    border: black 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol#Favorites-List li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+img#dancing-gif {
+    margin-left: auto;
+    margin-right: auto;
