@@ -1,12 +1,12 @@
 header {
-    background-color: black;
+    background-color: darkmagenta;
     position: relative;
     text-align: center;
     height: 50px;
 
   }
 ul#main-nav {
-    background-color: black;
+    background-color: darkmagenta;
     text-align: center;
     width: 50px;
     height: 50px;
@@ -14,7 +14,7 @@ ul#main-nav {
 }
 
 ul#main-nav li {
-    background-color: black;
+    background-color: darkmagenta;
     list-style-type: none;
     display: inline;
 }
@@ -32,8 +32,7 @@ ul#main-nav li a:hover{
 h1 {
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
-    color: darkslateblue;
-    background-color: lightpink;
+    color: darkmagenta;
     padding: 15px;
     text-align: center;
     border: black 1px solid;
@@ -42,11 +41,9 @@ h1 {
 h3{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: darkslateblue;
-    background-color: lightpink;
+    color: darkmagenta;
     padding: 15px;
-    text-align: center;
-    border: black 1px solid; 
+    text-align: center; 
 }
 
 body{
@@ -75,7 +72,7 @@ img#main-picture {
 table{
     margin-left: auto;
     margin-right: auto;
-    border: white 5px dotted;
+    border: darkmagenta 5px dotted;
 }
 
 .table-title {
@@ -103,33 +100,41 @@ ul#future-plans {
     border: black 5px solid;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 700px;
 }
 
 ul#future-plans li{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+    padding-right: 500px;
 
 }
 
 footer {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    color: darkslateblue;
+    color: darkmagenta;
     background-color: lightpink;
     text-align: center;
     border: black 1px solid;
 }
 
 ol#Favorites-List {
-    border: black 5px solid;
     margin-left: auto;
     margin-right: auto;
+    color: 
 }
 ol#Favorites-List li a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
+    color: darkmagenta;
+}
+
+ol#Favorites-List li a:hover {
+    color: white;
+    background-color: darkmagenta;
 }
 
 img#dancing-gif {
-    margin-left: auto;
+    margin-left: 650px;
     margin-right: auto;
