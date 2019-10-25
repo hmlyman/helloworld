@@ -1,0 +1,144 @@
+header {
+    position: static;
+  }
+ul#main-nav {
+    margin-bottom: 30px;
+}
+
+ul#main-nav li {
+    list-style-type: none;
+    text-align: center;
+    margin: 8px;
+}
+ul#main-nav li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+}
+
+ul#main-nav li a:hover{
+    color: white;
+    background-color: maroon;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+    background-color: white;
+    padding: 3%;
+    text-align: center;
+    border: darkgray 1px dashed;
+    margin: 1% 20%;
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: maroon;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: darkgray 1px dashed; 
+    margin: 0% 20%;
+}
+
+body{
+    background-color: maroon;
+}
+
+.text {
+    border: darkgray 3px dashed;
+    margin: 1% 20%;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: left;
+    text-justify: left;
+    font-size: 25px;
+}
+img#main-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dashed darkgray;
+    padding: 10px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: darkgray 5px dashd;
+}
+
+.table-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    border: darkgray 3px dashed;
+}
+
+img#old-lady {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 500px;
+    padding: 15px;
+}
+
+ul#future-plans {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul#future-plans li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+footer {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: maroon;
+    background-color: white;
+    text-align: center;
+    border: darkgray 1px dashed;
+    margin: 1% 0%;
+}
+
+ol#Favorites-List {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol#Favorites-List li {
+    color: white;
+}
+
+ol#Favorites-List li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+ol#Favorites-List li a:hover {
+    color: maroon;
+    background-color: white;
+}
+
+img#dancing-gif {
+    margin: 0% 20%;
+}
