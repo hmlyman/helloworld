@@ -7,28 +7,27 @@
         <!--<script type="text/javascript" src="main.json"></script>-->
     </head>
     <body>
-        <section id="1">
-            <div id="title"></div>
-            <img id="comic"></img>
-            <div id="altText"></div>
-            <div id="published"></div>
+        <section>
+            <table>
+                <tr>
+                    <th id="title" expr:href="./main.js/url"></th>
+                </tr>
+               <tr> 
+                    <th><img id="comic"></img></th>
+                </tr>
+                <tr>
+                    <th id="altText"></th>
+                </tr>
+                <tr>
+                    <th id="published"></th>
+                </tr>
+            </table>
         </section>
-        <section id="2">
+        <section>
             <div id="button">
                 Enter a Comic # <input type="" id="input">
                 <input id="submit" type="button" value="Submit" onclick="submitNumber()">
             </div>
-            <table>
-                <tr class="comicTitle">
-                    <th>comic.title</th>
-                </tr>
-                <tr class="comicImg">
-                    <th><img src="" title="Comic Image" alt="Comic Image"/></th>
-                </tr>
-                <tr class="comicPublish">
-                    <th></th>
-                </tr>
-            </table>
         </section>
     </body>
 </html>
