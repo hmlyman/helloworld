@@ -2,6 +2,7 @@ let comicData;
 let submit = document.getElementById("submit");
 let url = "https://cors-anywhere.herokuapp.com/http://xkcd.com/info.0.json";
 let request = new XMLHttpRequest();
+let comicNumber = document.getElementById("input").value;
 
 function loadData() {
     request.open("GET", url, true);
@@ -12,17 +13,21 @@ function loadData() {
 function loadComplete() {
     comicData = JSON.parse(this.responseText);
     console.log(comicData);
-    document.getElementById("title").innerHTML = comicData.title;
+    let link = document.createElement('a');
+    link.textContent = comicData.title;
+    link.href = ("https://cors-anywhere.herokuapp.com/http://xkcd.com/"+comicNumber+"/info.0.json");
+    document.getElementById('title').appendChild(link)
     document.getElementById("comic").src = comicData.img;
     document.getElementById("altText").innerHTML = comicData.alt;
     document.getElementById("published").innerHTML = "Published "+ comicData.month +"-"+ comicData.day +"-"+ comicData.year;
 }
 
+
 loadData();
 
 function submitNumber() {
     console.log("Submit test");
-    let comicNumber = document.getElementById("input").value;
+    
 
     if (comicNumber <= comicData.num){
         console.log("Valid number entered");
